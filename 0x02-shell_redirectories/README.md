@@ -1,1 +1,0 @@
-shell I/O redirectories
