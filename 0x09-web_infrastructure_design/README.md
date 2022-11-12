@@ -1,7 +1,6 @@
 # Web infrastructure design
 ---
 Project done during **Full Stack Software Engineering studies** at **ALX SE Programme** and **Holberton School**. It aims to learn about how to design a Web Infrastructure
-
 ## Key concepts
 ---
 * Network basics
