@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# redicts to another url
+
+sudo apt-get update
+sudo apt-get -y install nginx
+sudo service nginx start
+echo "Holberton School" | sudo tee /usr/share/nginx/html/index.html
+redirect="\n\tlocation /redirect_me {\n\t\treturn 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;\n\t}\n"
+sudo sed -i "37i\ $redirect" /etc/nginx/sites-available/default
+sudo service nginx restart
+sudo service nginx reload

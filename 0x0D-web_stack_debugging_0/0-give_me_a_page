@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# hello world must be return when curl queries the root
+# we run apache2 start on our server
+sudo apt-get update 
+sudo apt-get upgrade
+sudo apt-get install apache2 apache2-doc apache2-utils
+sudo service apache2 start
