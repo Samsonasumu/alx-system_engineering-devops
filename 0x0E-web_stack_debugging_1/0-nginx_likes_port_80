@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Fixing server
 
+
 ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 sudo service nginx start
