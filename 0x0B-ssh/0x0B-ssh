@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# Connnecting to the server
-cat ~/.ssh/id_rsa.pub | ssh ubuntu@100.26.20.169 'cat >> ~/.ssh/authorized_keys'
